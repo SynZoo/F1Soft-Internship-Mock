@@ -15,8 +15,8 @@
         <div class="nav-bar">
             <h2>HORIZON <span class="logo-text">FREE</span></h2>
             <a href="dashboard.html">
-                <li class="list-item" id="main-item"><svg class="icon" xmlns="http://www.w3.org/2000/svg"
-                        width="24" height="21" viewBox="0 0 24 21" fill="#FFFFFF">
+                <li class="list-item" id="main-item"><svg class="icon" xmlns="http://www.w3.org/2000/svg" width="24"
+                        height="21" viewBox="0 0 24 21" fill="#FFFFFF">
                         <g filter="url(#filter0_d_547_475)">
                             <path
                                 d="M10.0001 16V11H14.0001V16C14.0001 16.55 14.4501 17 15.0001 17H18.0001C18.5501 17 19.0001 16.55 19.0001 16V8.99997H20.7001C21.1601 8.99997 21.3801 8.42997 21.0301 8.12997L12.6701 0.599971C12.2901 0.259971 11.7101 0.259971 11.3301 0.599971L2.9701 8.12997C2.6301 8.42997 2.8401 8.99997 3.3001 8.99997H5.0001V16C5.0001 16.55 5.4501 17 6.0001 17H9.0001C9.5501 17 10.0001 16.55 10.0001 16Z"
@@ -99,11 +99,10 @@
                     </svg>All Creators</li>
             </a>
             <a href="add-creator.html">
-                <li class="list-item active"><svg class="icon active-svg" xmlns="http://www.w3.org/2000/svg" width="16" height="16"
-                        viewBox="0 0 16 16">
+                <li class="list-item active"><svg class="icon active-svg" xmlns="http://www.w3.org/2000/svg" width="16"
+                        height="16" viewBox="0 0 16 16">
                         <path
-                            d="M8 8C10.21 8 12 6.21 12 4C12 1.79 10.21 0 8 0C5.79 0 4 1.79 4 4C4 6.21 5.79 8 8 8ZM8 10C5.33 10 0 11.34 0 14V15C0 15.55 0.45 16 1 16H15C15.55 16 16 15.55 16 15V14C16 11.34 10.67 10 8 10Z"
-                             />
+                            d="M8 8C10.21 8 12 6.21 12 4C12 1.79 10.21 0 8 0C5.79 0 4 1.79 4 4C4 6.21 5.79 8 8 8ZM8 10C5.33 10 0 11.34 0 14V15C0 15.55 0.45 16 1 16H15C15.55 16 16 15.55 16 15V14C16 11.34 10.67 10 8 10Z" />
                     </svg>Add Creator</li>
             </a>
             <a href="sign-in.html">
@@ -145,7 +144,9 @@
                     <label for="rating">Rate the artist</label><br>
                     <input type="range" min="0" max="100" value="0" class="slider" id="rating"><br>
                 </div>
-                <div id="button-change"><input type="button" value="Add User" id="add-btn">
+                <div id="button-change">
+                    <input type="button" value="Add User" id="add-btn">
+                    <input type="button" value="Update" id="update-btn" style="display: none;">
                 </div>
             </div>
         </div>
