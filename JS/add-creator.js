@@ -2,7 +2,7 @@ const user = document.getElementById("user")
 const artworks = document.getElementById("artworks")
 const rating = document.getElementById("rating")
 const addBtn = document.getElementById("add-btn")
-const updateBtn = document.getElementById("update-btn")
+const buttonChange = document.getElementById("button-change")
 
 
 window.addEventListener("DOMContentLoaded", function () {
@@ -12,6 +12,8 @@ window.addEventListener("DOMContentLoaded", function () {
     user.value = localStorage.getItem("name");
     artworks.value = localStorage.getItem("artwork");
     rating.value = localStorage.getItem("rating");
+
+    buttonChange.innerHTML = `<input type="button" value="Update" id="update-btn">`
 
     localStorage.removeItem("fromUpdate")
     localStorage.removeItem("name");
@@ -51,6 +53,8 @@ addBtn.addEventListener("click", (e) => {
 
 updateBtn.addEventListener("click", (e) => {
   e.preventDefault()
+
+  const updateBtn = document.getElementById("update-btn")
 
   const userName = user.value
   const artWorks = artworks.value
