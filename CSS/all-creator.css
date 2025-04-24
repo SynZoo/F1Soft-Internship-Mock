@@ -1,0 +1,46 @@
+table {
+    width: 1580px;
+}
+
+.heading {
+    font-size: 16px;
+    font-weight: bolder;
+}
+
+
+th {
+    padding: 20px 0px;
+}
+
+td {
+    padding: 0px;
+}
+
+.button-group {
+    display: flex;
+    gap: 50px;
+}
+
+.delete-btn {
+    cursor: pointer;
+    border: none;
+    width: 25px;
+}
+
+.delete-btn:hover {
+    fill: red;
+}
+
+img {
+    width: 25px;
+}
+
+.update-btn {
+    cursor: pointer;
+    border: none;
+    width: 20px;
+}
+
+.update-btn:hover {
+    fill: green;
+}
